@@ -4,7 +4,7 @@
 	"description": "Fetch your device data directly from the WeatherHub Observer - https://www.wh-observer.de",
 	"main": "app.js",
 	"author": "Marcel Zurreck",
-	"license": "MIT"
+	"license": "MIT",
 	"scripts": {
 		"start": "nodemon app.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Xairoo/weatherhub-observer-data-fetcher.git"
-	},
+	}
 }

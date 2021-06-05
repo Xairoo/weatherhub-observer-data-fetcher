@@ -15,7 +15,7 @@ git clone https://github.com/xairoo/weatherhub-observer-data-fetcher.git
 Install all depencies:
 
 ```bash
-$ npm install
+npm install
 ```
 
 Add your username and password into the `.env` file:
@@ -34,10 +34,10 @@ const devices = ['090005AC99E2', '...'];
 Run the script:
 
 ```bash
-$ npm start
+npm start
 ```
 
-## Data conversation
+## Data Conversation
 
 All keys will be lowercased and all values will be converted to a number if possible.
 
@@ -54,7 +54,7 @@ Sample data:
 }
 ```
 
-## Custom actions
+## Custom Actions
 
 Have a look at `app.js` if you want to submit the data to MySQL, Redis, ...
 
