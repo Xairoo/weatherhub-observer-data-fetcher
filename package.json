@@ -1,14 +1,14 @@
 {
 	"name": "weatherhub-observer-data-fetcher",
 	"version": "0.1.0",
-	"description": "",
+	"description": "Fetch your device data directly from the WeatherHub Observer - https://www.wh-observer.de",
 	"main": "app.js",
+	"author": "Marcel Zurreck",
+	"license": "MIT"
 	"scripts": {
 		"start": "nodemon app.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
-	"license": "ISC",
 	"dependencies": {
 		"cookie": "^0.4.1",
 		"csv-parser": "^3.0.0",
@@ -17,5 +17,9 @@
 		"nodemon": "^2.0.7",
 		"npm": "^7.16.0",
 		"set-cookie-parser": "^2.4.8"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Xairoo/weatherhub-observer-data-fetcher.git"
+	},
 }
